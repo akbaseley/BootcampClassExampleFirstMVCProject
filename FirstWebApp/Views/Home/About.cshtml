@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Find Horoscope";
+}
+<h2>@ViewBag.Title</h2>
+
+<form action = "/Home/FindHoroscope" method="get">
+    Date: <input type="date" name="searchDate"/>
+    <input type="submit" value="Search"/>
+</form>
